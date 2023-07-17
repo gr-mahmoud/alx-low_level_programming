@@ -29,9 +29,10 @@ if (firstDigit != 98 || seconDigit != 99)
 {
 putchar(',');
 putchar(' ');
-}
+ }
 }
 seconDigit++;
+}
 firstDigit++;
 }
 putchar('\n');
